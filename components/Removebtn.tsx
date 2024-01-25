@@ -1,7 +1,7 @@
 import React from 'react'
-import { HiOutlineTrash } from "react-icons/hi";
+import { HiOutlineTrash } from 'react-icons/hi';
 
-function Removebtn() {
+function Removebtn({id} : {id: string}) {
   return (
     <button className='text-red-400' ><HiOutlineTrash size={24}/></button>
   )

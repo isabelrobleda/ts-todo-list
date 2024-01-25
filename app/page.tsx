@@ -1,3 +1,4 @@
+"use client"
 import TodoList from "@/components/TodoList";
 import Image from "next/image";
 
